@@ -1,3 +1,22 @@
 body {
   background-color: #63BAF5;
 }
+button {
+  font: Georgia;
+  font-size: 15px;
+  margin:250px;
+  border-radius:15px;
+  width:350px;
+  height:100px;
+  color: blue;
+  background: white;
+  border-color: #1DA6B7;
+  border-width:7px;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2090D4;
+  color:white;
+}
