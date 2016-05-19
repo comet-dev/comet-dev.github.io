@@ -1,22 +1,36 @@
-body {
-  background-color: #63BAF5;
-}
 button {
-  font: Georgia;
-  font-size: 15px;
-  margin:250px;
-  border-radius:15px;
-  width:350px;
-  height:100px;
-  color: blue;
-  background: white;
-  border-color: #1DA6B7;
-  border-width:2px;
-  text-align: center;
-  transition-duration: 0.4s;
-  cursor: pointer;
+    font: Georgia;
+    font-size: 15px;
+    margin: 100px 250px 430px 410px ;
+    border-radius: 6px;
+    width: 400px;
+    height: 85px;
+    color: #03A9F4;
+    border-color: #03A9F4;
+    background: transparent;
+    border: 1px solid #03A9F4;
+    text-align: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    display: inline-block;
 }
 button:hover {
   background-color: #2090D4;
   color:white;
 }
+ul {
+     list-style-type: none;
+     margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0;
+     overflow: hidden;
+     background-color: #2090D4;
+     
+  }
+  li {
+    float: left;
+  }    
+  li a {
+      display: block;  
+  }
