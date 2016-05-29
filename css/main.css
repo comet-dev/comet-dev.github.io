@@ -23,7 +23,6 @@ button:hover {
 }
 ul {
    list-style-type: none;
-   margin: 0;
    padding: 0;
    overflow: hidden;
    background-color: #2090D4;
@@ -44,4 +43,6 @@ li a {
 li a:hover {
   background-color: #03A9F4;
 }
-
+.navbar {
+    
+}
