@@ -27,7 +27,6 @@ button:hover {
 ul {
    list-style-type: none;
    overflow: hidden;
-   background-color: #2090D4;
    position: fixed;
    top: 0;
    width: 100%;
@@ -53,4 +52,7 @@ li a:active {
 div.intro-comet-hero {
     background-color: white;
     padding: 25px 12px;
+}
+.main-header {
+    background-color: #2090D4;
 }
