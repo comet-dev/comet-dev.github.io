@@ -1,6 +1,9 @@
 body {
     background-color:#23526D;
 }
+header.main-header {
+    
+}
 button {
     font: Georgia;
     font-size: 15px;
@@ -23,7 +26,7 @@ button:hover {
 }
 ul {
    list-style-type: none;
-   padding: 0;
+   padding: 12px 22px;
    overflow: hidden;
    background-color: #2090D4;
    position: fixed;
@@ -37,12 +40,18 @@ li a {
     display: block;   
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
   background-color: #03A9F4;
 }
-.navbar {
+li a:active {
+  background-color: #03A9F4;
+}
+nav.navbar {
     
+}
+div.intro-comet-hero {
+    background-color: white;
+    padding: 25px 12px;
 }
