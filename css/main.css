@@ -21,11 +21,9 @@ button:hover {
   background-color: #2090D4;
   color:white;
 }
-.main-header { 
+ul {
    width: 100%;
    background-color: #3495BB;
-}
-ul {
    list-style-type: none;
    overflow: hidden;
    position: fixed;
@@ -49,7 +47,7 @@ li a:hover {
 li a:active {
   background-color: #03A9F4;
 }
-div.intro-comet-hero {
+.intro-comet-hero {
     background-color: white;
     padding: 2px 12px;
 }
