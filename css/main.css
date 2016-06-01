@@ -1,9 +1,6 @@
 body {
     background-color:#23526D;
 }
-header.main-header {
-    
-}
 button {
     font: Georgia;
     font-size: 15px;
@@ -24,12 +21,14 @@ button:hover {
   background-color: #2090D4;
   color:white;
 }
+.nav { 
+   width: 100%; 
+}
 ul {
    list-style-type: none;
    overflow: hidden;
    position: fixed;
    top: 0;
-   width: 100%;
 }
 li {
   float: left; 
