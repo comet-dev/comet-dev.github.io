@@ -21,33 +21,6 @@ button:hover {
   background-color: #2090D4;
   color:white;
 }
-ul {
-   width: 100%;
-   background-color: #3495BB;
-   list-style-type: none;
-   overflow: hidden;
-   position: fixed;
-   top: 0;
-   margin:0;
-}
-li {
-  float: left; 
-}    
-li a {
-    display: block;   
-    color: white;
-    margin-top: 38px;
-    margin-left: 12px;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-}
-li a:hover {
-  background-color: #03A9F4;
-}
-li a:active {
-  background-color: #03A9F4;
-}
 .intro-comet-hero {
     background-color: white;
     padding: 2px 12px;
