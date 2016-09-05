@@ -2,7 +2,6 @@ body {
   margin:0;
 }
 header.top-nav {
-  background: #999;
   color: #00a7ff;
   padding:5px 15px;
 }
@@ -16,7 +15,6 @@ nav ul {
   display:inline;
 }
 nav ul li {
-  background:black;
   color: #00a7ff;
   list-style-type:none;
   display: inline-block;
