@@ -1,9 +1,14 @@
 body {
-    margin:0;
+  margin:0;
 }
-a:hover {
-  background-color: #2090D4;
-  color:white;
+header.top-nav {
+  background: #999;
+  color: #00a7ff;
+  padding:5px 15px;
+}
+header h1 {
+ margin:0;
+ display:inline;
 }
 nav ul {
   margin:0;
@@ -12,14 +17,20 @@ nav ul {
 }
 nav ul li {
   background:black;
-  color: white;
+  color: #00a7ff;
   list-style-type:none;
   display: inline-block;
   padding:5px 15px;
 }
 nav ul li a {
-  color:white;
+  color:#00a7ff;
   text-decoration:none
+}
+nav ul li a::hover {
+    color: #2090d4;
+}
+nav ul li a::active {
+    color: #2090d4;
 }
 ul.features .features1::before {
     content: "";
