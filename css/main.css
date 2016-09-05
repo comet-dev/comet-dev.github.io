@@ -30,6 +30,18 @@ nav ul li a:hover {
 nav ul li a:active {
     color: #23629a;
 }
+.row {
+  background-color:blue;
+  padding: 135px 105px;
+  text-align:center;
+  display:block;
+  border: 1px solid #20515B;
+  background-image: linear-gradient(to bottom, #0058ff 0, #325ca9 100%);
+}
+.row-title {
+  font-family: sans-serif;
+  color: #00a7ff;
+}
 ul.features .features1::before {
     content: "";
     border-radius: 50%;
@@ -58,18 +70,8 @@ ul.features .features1::before {
 .info-below-text {
   margin-left:50px;
 }
-.row {
-  background-color:blue;
-  padding: 135px 105px;
-  text-align:center;
-  display:block;
-  border: 1px solid #20515B;
-}
-.row-title {
-  font-family: sans-serif;
-  color: #00a7ff;
-}
-.href {
+
+.btn-download {
     font: Georgia;
     font-size: 15px;
     margin: 300px 385px;
