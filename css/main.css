@@ -25,10 +25,10 @@ nav ul li a {
   text-decoration:none
 }
 nav ul li a:hover {
-    color: #2090d4;
+    color: #23629a;
 }
 nav ul li a:active {
-    color: #2090d4;
+    color: #23629a;
 }
 ul.features .features1::before {
     content: "";
