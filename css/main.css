@@ -24,10 +24,10 @@ nav ul li a {
   color:#00a7ff;
   text-decoration:none
 }
-nav ul li a::hover {
+nav ul li a:hover {
     color: #2090d4;
 }
-nav ul li a::active {
+nav ul li a:active {
     color: #2090d4;
 }
 ul.features .features1::before {
