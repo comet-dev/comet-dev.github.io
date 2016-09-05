@@ -1,7 +1,66 @@
 body {
     margin:0;
 }
-button {
+a:hover {
+  background-color: #2090D4;
+  color:white;
+}
+nav ul {
+  margin:0;
+  padding: 0 0 0 15px;
+  display:inline;
+}
+nav ul li {
+  background:black;
+  color: white;
+  list-style-type:none;
+  display: inline-block;
+  padding:5px 15px;
+}
+nav ul li a {
+  color:white;
+  text-decoration:none
+}
+ul.features .features1::before {
+    content: "";
+    border-radius: 50%;
+    background: blue;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+}
+.section-container {
+  background-color: red;
+}
+.section-lead {
+  font-family:cursive;
+}
+.row3 {
+ padding:115px 90px;
+ background-color:green;
+ text-align:center;
+ display:block;
+}
+.info-below {
+  font-family:cursive;
+  color:white;
+  background-color:purple;
+}
+.info-below-text {
+  margin-left:50px;
+}
+.row {
+  background-color:blue;
+  padding: 135px 105px;
+  text-align:center;
+  display:block;
+  border: 1px solid #20515B;
+}
+.row-title {
+  font-family: sans-serif;
+  color: #00a7ff;
+}
+.href {
     font: Georgia;
     font-size: 15px;
     margin: 300px 385px;
@@ -17,12 +76,3 @@ button {
     cursor: pointer;
     display: inline-block;
 }
-button:hover {
-  background-color: #2090D4;
-  color:white;
-}
-.intro-comet-hero {
-    background-color: white;
-    padding: 2px 12px;
-}
-
