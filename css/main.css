@@ -44,7 +44,7 @@ nav ul li a:active {
 }
 .row-title {
   font-family: sans-serif;
-  color: #00a7ff;
+  color: #ffffff;
 }
 .row2 {
     background-color: yellow;
@@ -94,7 +94,7 @@ ul.features .features1::before {
     text-align: center;
     transition-duration: 0.1s;
     cursor: pointer;
-    margin: 20px 0 0 -315px;
+    margin: 30px 0 0 -32px;
     padding: 28px 0 0 0;
     display: inline-block;
 }
@@ -111,11 +111,15 @@ ul.features .features1::before {
     text-align: center;
     transition-duration: 0.1s;
     cursor: pointer;
-    margin: 20px 0 0 -315px;
+    margin: 20px 0 0 30px;
     padding: 28px 0 0 0;
     display: inline-block;
 }
 .btn-download:hover {
+  border-color:white;
+  background-color:white;
+}
+.btn-download2:hover {
   border-color:white;
   background-color:white;
 }
