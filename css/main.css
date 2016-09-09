@@ -129,7 +129,7 @@ ul.features .features1::before {
     padding: 28px 0 0 0;
     display: inline-block;
 }
-@media screen and (max width: 600px){
+@media screen and (max-width: 600px){
 .btn-download2 {  
     font-family: sans-serif;
     border-radius: 6px;
