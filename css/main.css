@@ -130,7 +130,8 @@ ul.features .features1::before {
     display: inline-block;
 }
 @media screen and (max width: 600px){
-  font-family: sans-serif;
+.btn-download2 {  
+    font-family: sans-serif;
     border-radius: 6px;
     width: 280px;
     height: 48px;
@@ -145,6 +146,7 @@ ul.features .features1::before {
     margin: 20px 0 0 -30px;
     padding: 28px 0 0 0;
     display: inline-block;
+ }  
 }
 .btn-download:hover {
   border-color:white;
