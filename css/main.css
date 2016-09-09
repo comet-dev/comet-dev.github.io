@@ -129,6 +129,23 @@ ul.features .features1::before {
     padding: 28px 0 0 0;
     display: inline-block;
 }
+@media screen and (max width: 600px){
+  font-family: sans-serif;
+    border-radius: 6px;
+    width: 280px;
+    height: 48px;
+    text-decoration: none;
+    color: #03A9F4;
+    border-color: #03A9F4;
+    background: transparent;
+    border: 1px solid #03A9F4;
+    text-align: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin: 20px 0 0 -30px;
+    padding: 28px 0 0 0;
+    display: inline-block;
+}
 .btn-download:hover {
   border-color:white;
   background-color:white;
