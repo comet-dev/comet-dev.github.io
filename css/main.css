@@ -125,7 +125,7 @@ ul.features .features1::before {
     text-align: center;
     transition-duration: 0.1s;
     cursor: pointer;
-    margin: 20px 0 0 30px;
+    margin: 20px 62px 0 30px;
     padding: 28px 0 0 0;
     display: inline-block;
 }
@@ -147,7 +147,6 @@ ul.features .features1::before {
     padding: 28px 0 0 0;
     display: inline-block;
  }  
-}
 .btn-download:hover {
   border-color:white;
   background-color:white;
