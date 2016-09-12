@@ -125,7 +125,7 @@ ul.features .features1::before {
     text-align: center;
     transition-duration: 0.1s;
     cursor: pointer;
-    margin: 20px 62px 0 30px;
+    margin: 20px 40px 0 10px;
     padding: 28px 0 0 0;
     display: inline-block;
 }
