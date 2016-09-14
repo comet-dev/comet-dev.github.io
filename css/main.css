@@ -43,6 +43,7 @@ p.update-description {
     color: #ffffff;
     font-weight: 600;
     font-size: 20px;
+    text-decoration:none;
 }
 .row {
   background-color:blue;
@@ -93,6 +94,7 @@ ul.features .features1::before {
 }
 .info-below-text {
   margin-left:50px;
+  text-decoration:none;
 }
 
 .btn-download {
