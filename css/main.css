@@ -35,7 +35,6 @@ nav ul li a:active {
     padding: 20px;
     background-color: #0c3288;
     display: block;
-    text-decoration:none;
 }
 p.update-description {
     margin: 0;
@@ -94,7 +93,6 @@ ul.features .features1::before {
 }
 .info-below-text {
   margin-left:50px;
-  text-decoration:none;
 }
 
 .btn-download {
