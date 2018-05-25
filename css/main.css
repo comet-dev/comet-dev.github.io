@@ -32,7 +32,7 @@ nav ul li a:active {
 }
 .hero-update {
     margin: 0px;
-    padding: 20px;
+    padding: 22px;
     background-color: #0c3288;
     display: block;
 }
@@ -45,14 +45,13 @@ p.update-description {
     font-size: 20px;
 }
 .row {
-  background-color:blue;
-  padding: 135px 105px;
-  text-align:center;
-  display:block;
-  border: 1px solid #20515B;
-  background-image: linear-gradient(to bottom, #0058ff 0, #325ca9 100%);
-  height: 365px;
-}
+    background-color: blue;
+    padding: 351px 0px;
+    text-align: center;
+    display: block;
+    border: 1px solid #20515B;
+    background-image: linear-gradient(to bottom, #0058ff 0, #325ca9 100%);
+    height: 625px;
 .container {
   height:365px;
 }
@@ -155,3 +154,4 @@ ul.features .features1::before {
   border-color:white;
   background-color:white;
 }
+  }
