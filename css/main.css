@@ -1,5 +1,141 @@
-
+Skip to content
+ 
+Pull requests
+Issues
+Marketplace
+Explore
+ @mosesag0813 Sign out
+1
+0 0 comet-dev/comet-dev.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+comet-dev.github.io/css/main.css
+a8ea17e  on Sep 5, 2016
+@mosesag0813 mosesag0813 Update main.css
+      
+126 lines (124 sloc)  2.19 KB
+body {
+  margin:0;
+}
 header.top-nav {
   color: #00a7ff;
-  padding: 5px 15px;
+  padding: 15px 35px;
 }
+header h1 {
+ margin:0;
+ display:inline;
+}
+nav ul {
+  margin:0;
+  padding: 0 0 0 15px;
+  display:inline;
+}
+nav ul li {
+  color: #00a7ff;
+  list-style-type:none;
+  display: inline-block;
+  padding:5px 15px;
+}
+nav ul li a {
+  color:#00a7ff;
+  text-decoration:none
+}
+nav ul li a:hover {
+    color: #23629a;
+}
+nav ul li a:active {
+    color: #23629a;
+}
+.row {
+  background-color:blue;
+  padding: 135px 105px;
+  text-align:center;
+  display:block;
+  border: 1px solid #20515B;
+  background-image: linear-gradient(to bottom, #0058ff 0, #325ca9 100%);
+  height: 365px;
+}
+.container {
+  height:365px;
+}
+.row-title {
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.row2 {
+    background-color: yellow;
+    padding: 135px 150px;
+    text-align: center;
+    display: block;
+}
+ul.features .features1::before {
+    content: "";
+    border-radius: 50%;
+    background: blue;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+}
+.section-container {
+  background-color: red;
+}
+.section-lead {
+  font-family:cursive;
+}
+.row3 {
+ padding:115px 90px;
+ background-color:green;
+ text-align:center;
+ display:block;
+}
+.info-below {
+  font-family:cursive;
+  color:white;
+  background-color:purple;
+}
+.info-below-text {
+  margin-left:50px;
+}
+
+.btn-download {
+   font-family: sans-serif;
+    border-radius: 6px;
+    width: 280px;
+    height: 48px;
+    text-decoration: none;
+    color: #03A9F4;
+    border-color: #03A9F4;
+    background: transparent;
+    border: 1px solid #03A9F4;
+    text-align: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin: 30px 0 0 -32px;
+    padding: 28px 0 0 0;
+    display: inline-block;
+}
+.btn-download2 {
+   font-family: sans-serif;
+    border-radius: 6px;
+    width: 280px;
+    height: 48px;
+    text-decoration: none;
+    color: #03A9F4;
+    border-color: #03A9F4;
+    background: transparent;
+    border: 1px solid #03A9F4;
+    text-align: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin: 20px 0 0 30px;
+    padding: 28px 0 0 0;
+    display: inline-block;
+}
+.btn-download:hover {
+  border-color:white;
+  background-color:white;
+}
+.btn-download2:hover {
+  border-color:white;
+  background-color:white;
+}
+
